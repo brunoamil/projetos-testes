@@ -3,12 +3,22 @@
   <head>
     <meta charset="UTF-8">
     <title>Barbearia </title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style-home.css">
   </head>
   <body>
     <header>
-        <h1 class="titulo-principal">Barbearia</h1> 
-    </header>
+      <div class="caixa">
+          <h1><img src="img/logo.png"></h1>
+          <nav>
+              <ul>
+                  <li><a href="index.html">Home</a></li>
+                  <li><a href="produtos.html">Produtos</a></li>
+                  <li><a href="contato.html">Contato</a></li>
+              </ul>
+          </nav>
+      </div>
+  </header>
 
     <img id="banner" src="img/banner.jpg">
     
@@ -29,13 +39,13 @@
 
     <div class="beneficios">
         <h3 class="titulo-centralizado">Benefícios</h3>
-        <ul>
+        <ul class="itens-beneficios">
             <li class="itens">Atendimento aos clientes</li>
             <li class="itens">Espaço Diferenciado</li>
             <li class="itens">Localização</li>
             <li class="itens">Profissionais Qualificados</li>
         </ul> 
-        <img class="imagem-beneficios" src="beneficios.jpg">
+        <img class="imagem-beneficios" src="img/beneficios.jpg">
     </div>
     </body>
 </html>
